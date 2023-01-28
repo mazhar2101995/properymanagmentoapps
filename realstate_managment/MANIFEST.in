@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include realstate_managment *.css
+recursive-include realstate_managment *.csv
+recursive-include realstate_managment *.html
+recursive-include realstate_managment *.ico
+recursive-include realstate_managment *.js
+recursive-include realstate_managment *.json
+recursive-include realstate_managment *.md
+recursive-include realstate_managment *.png
+recursive-include realstate_managment *.py
+recursive-include realstate_managment *.svg
+recursive-include realstate_managment *.txt
+recursive-exclude realstate_managment *.pyc
