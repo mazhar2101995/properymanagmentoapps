@@ -12,7 +12,9 @@
   "project_name",
   "property_type",
   "price",
-  "property_area"
+  "property_area",
+  "property_add_date",
+  "data_botg"
  ],
  "fields": [
   {
@@ -24,28 +26,41 @@
   },
   {
    "fieldname": "project_name",
-   "fieldtype": "Data",
-   "label": "Project Name"
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Projects Oapps"
   },
   {
    "fieldname": "property_type",
-   "fieldtype": "Data",
-   "label": "Property Type"
+   "fieldtype": "Select",
+   "label": "Property Type",
+   "options": "Duplex\nApartment\nOffice\nShop"
   },
   {
    "fieldname": "price",
-   "fieldtype": "Data",
+   "fieldtype": "Int",
    "label": "Price"
   },
   {
    "fieldname": "property_area",
-   "fieldtype": "Data",
+   "fieldtype": "Int",
    "label": "Property Area"
+  },
+  {
+   "fieldname": "property_add_date",
+   "fieldtype": "Date",
+   "label": "Property Add Date"
+  },
+  {
+   "fieldname": "data_botg",
+   "fieldtype": "Table",
+   "label": "Property Sales Agent",
+   "options": "Property Sales Agent"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-28 11:35:12.382071",
+ "modified": "2023-01-28 12:26:34.048452",
  "modified_by": "Administrator",
  "module": "Property Managment Oapps",
  "name": "Property Oapps",
